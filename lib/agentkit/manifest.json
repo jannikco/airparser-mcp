@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-airparser",
+      "description": "Connect AI agents to Airparser using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-airparser/SKILL.md": "6285ee915ddbe4ebacf88385e312ec85dffee4345a6334459ea2cd1e888f1519"
+  }
+}
