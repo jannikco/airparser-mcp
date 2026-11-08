@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "4e4e7101971e0bf3e084a75d35ec3222b233b609bbe309ca839bec4c0e465732",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://help.airparser.com/public-api/public-api"
+  ],
+  "id": "airparser-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Airparser MCP setup and connection checker",
+  "description": "Generate Airparser MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "airparser",
+  "appName": "Airparser",
+  "providerDocs": "https://help.airparser.com/public-api/public-api",
+  "providerWebsite": "https://airparser.com/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://help.airparser.com/public-api/public-api",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-airparser-mcp"
+}
